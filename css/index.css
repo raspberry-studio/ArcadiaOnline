@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP|Titillium+Web');
+
+html, body {
+  padding: 0;
+  margin: 0 auto;
+  background-color: #484848;
+  color: white;
+  font-family: 'Noto Serif JP', serif;
+}
+
+#top {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+  font-size: 3em;
+  top: 20vh;
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#sub {
+  color: rgb(237, 237, 237);
+  font-size: 2.2em;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 25vh;
+}
+
+#p1 {
+  padding: 0;
+  width: 100vw;
+  height: 70vh;
+  background-color: #43d8d8;
+}
+
+#p2 {
+  padding: 0;
+  width: 100vw;
+  height: 80vh;
+  background-color: #484848;
+}
+
+#description {
+  margin-top: 10vh;
+}
+
+#title {
+  font-family: 'Titillium Web', sans-serif;
+  width: fit-content;
+  font-size: 2em;
+  margin: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.p2-title, .p2-text {
+  text-align: center;
+}
+
+#p2-main {
+  margin-bottom: 30px;
+  font-size: 2.8em;
+}
